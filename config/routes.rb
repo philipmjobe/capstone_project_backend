@@ -4,5 +4,7 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
   ### SESSIONS ROUTES ###
   post "/sessions" => "sessions#create"
-
+  ### MOVIES ROUTES ###
+  get "/movies" => "movies#index"
+  get "/movies/:id" => "movies#show"
 end
