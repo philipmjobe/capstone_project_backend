@@ -206,25 +206,31 @@ Movie.create!(name: "Hanukkah", description: "A group of Jewish teens are gettin
 
 ### KILLER HARD CODE DATA
 
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
+Movie.create!(name: "The Night Of A Thousand Cats", description: "Millionaire playboy Hugo flies around Acapulco in his private helicopter to pick up sexy young women. He whisks them away to his secluded old castle, where he wines and dines them. With the aid of his bald mute little helper Gorgo, he kills his dates, keeping their heads in a crystal cage and feeding their chopped up body parts to his 1,000-strong army of blood thirty, flesh hungry cats.", box_art: "https://www.allhorror.com/public/uploads/2021/10/9jeCFXBhH7a2CGPXf56xV0iquHy.jpg", sub_genre: "Killer Horror", year: 1972),
+Movie.create!(name: "Fatal Games", description: "A group of amazing athletes are systematically stalked and killed by a crazed, hoodie wearing psychopath.", box_art: "https://www.allhorror.com/public/uploads/2021/10/rPKPnrnvH9g3b2exMfvrtaMVE1X.jpg", sub_genre: "Killer Horror", year: 1984),
+Movie.create!(name: "Henry: Portrait Of A Serial Killer", description: "Henry likes to kill people, in different ways each time. Henry shares an apartment with Otis. When Otis' sister comes to stay, we see both sides of Henry: "the guy next door" and the serial killer.", box_art: "https://www.allhorror.com/public/uploads/2021/10/7hQr8BgylKB0mdwvdnBK5lNqVcx.jpg", sub_genre: "Killer Horror", year: 1986),
+Movie.create!(name: "Candyman", description: "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth.", box_art: "https://www.allhorror.com/public/uploads/2021/10/n38YbNqUf5KWpMJFc4X3t0rlhg5.jpg", sub_genre: "Killer Horror", year: 1992),
+Movie.create!(name: "Ed Gein", description: "The true story of Edward Gein, the farmer whose horrific crimes inspired Psycho, The Texas Chainsaw Massacre and The Silence of the Lambs. This is the first film to Gein's tormented upbringing, his adored but domineering mother, and the 1957 arrest uncovered the most bizarre series of murders America has ever seen", box_art: "https://www.allhorror.com/public/uploads/2021/10/kmgR0RmsFei4Ev3a6GiRojuZwHx.jpg", sub_genre: "Killer Horror", year: 2000),
+Movie.create!(name: "American Psycho", description: "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.", box_art: "https://www.allhorror.com/public/uploads/2018/05/qXsylPM4Lr5397R3eHrfqHhTUNc.jpg", sub_genre: "Killer Horror", year: 2000),
+Movie.create!(name: "Gacy", description: "Based on a true story of serial killer a model citizen, loving father and husband and serial killer John Wayne Gacy, a man with over 30 dead men and boys entombed in the crawl space underneath his house which he shared with his family.", box_art: "https://www.allhorror.com/public/uploads/2018/07/65OieL1GViTFuLCi803Mc4cCjrQ.jpg", sub_genre: "Killer Horror", year: 2003),
+Movie.create!(name: "Wolf Creek", description: "Stranded backpackers in remote Australia fall prey to a murderous bushman who offers to fix their car, then takes them captive", box_art: "https://www.allhorror.com/public/uploads/2021/10/8NiRpqO3vx7ny6jagrEN61hu7qG.jpg", sub_genre: "Killer Horror", year: 2005),
+Movie.create!(name: "Till Death", description: "After a romantic evening at their secluded lake house, a woman wakes up handcuffed to her dead husband. Trapped and isolated in the dead of winter, she must fight off hired killers to escape her late spouse's twisted plan.", box_art: "https://www.allhorror.com/public/uploads/2021/10/bvwMvrX2XqZVOz35YuYbFx3Iggr.jpg", sub_genre: "Killer Horror", year: 2021),
+Movie.create!(name: "All My Friends Are Dead", description: "Friends at a New Year's Eve party go through a whirlwind of events that exposes secrets, breaks hearts -- and leads to a shocking outcome.", box_art: "https://www.allhorror.com/public/uploads/2021/08/lpPQN2WoC6SY9xmdH7Hd6ILpbz6.jpg", sub_genre: "Killer Horror", year: 2021),
+
+### LOVE SICK HARD CODE DATA
+
+Movie.create!(name: "Mad Love", description: "An insane surgeon's obsession with an actress leads him to replace her wounded pianist's hands with the hands of a knife murderer which still have the urge to throw knives.", box_art: "https://www.allhorror.com/public/uploads/2021/10/kyzjJxklJRwynGJqIWl4kq8Daev.jpg", sub_genre: "Love Sick Horror", year: 1935),
+Movie.create!(name: "The Night Evelyn Came Out Of The Grave", description: "A wealthy English lord is suffering a mental breakdown following the death of his red-headed wife, Evelyn, whom he feared was cheating on him. He tours local bars and dives, scouring for lovely red-heads willing to come back to his decaying castle in the country, where he seduces them, then tortures and kills them. His friend the doctor talks him into marrying again to help heal his slowly-rotting mind, which he does--but are the doctor's orders really what he needs?", box_art: "https://www.allhorror.com/public/uploads/2021/10/sUMDXrKxPRZeNQgKDG5bl3FQ2Zd.jpg", sub_genre: "Love Sick Horror", year: 1971),
+Movie.create!(name: "The Witches Of Eastwick", description: "Three single women in a picturesque village have their wishes granted - at a cost - when a mysterious and flamboyant man arrives in their lives.", box_art: "https://www.allhorror.com/public/uploads/2021/10/zJGsoVAQvnyI8gBPZvNpngLjVQ9zJGsoVAQvnyI8gBPZvNpngLjVQ9-1.jpg", sub_genre: "Love Sick Horror", year: 1987),
+Movie.create!(name: "Death Becomes Her", description: "Madeline is married to Ernest, who was once arch-rival Helen's fiance. After recovering from a mental breakdown, Helen vows to kill Madeline and steal back Ernest. Unfortunately for everyone, the introduction of a magic potion causes things to be a great deal more complicated than a mere murder plot.", box_art: "https://www.allhorror.com/public/uploads/2021/10/hXKmJZ7SUPlwgLbaKuk2FT9M5GzhXKmJZ7SUPlwgLbaKuk2FT9M5Gz-1.jpg", sub_genre: "Love Sick Horror", year: 1992),
+Movie.create!(name: "Sleepy Hollow", description: "New York detective Ichabod Crane is sent to Sleepy Hollow to investigate a series of mysterious deaths in which the victims are found beheaded. But the locals believe the culprit to be none other than the ghost of the legendary Headless Horseman.", box_art: "https://www.allhorror.com/public/uploads/2018/05/2UDsmTvWSxVvuGoRQyV3zVaIRyu.jpg", sub_genre: "Love Sick Horror", year: 1999),
+Movie.create!(name: "Kiss Of The Damned", description: "Beautiful vampire Djuna tries to resist the advances of the handsome, human screenwriter Paolo, but eventually gives in to their passion. When her seductive and highly volatile sister Mimi unexpectedly comes to visit, she threatens Djuna's new relationship, and the whole vampire community becomes endangered.", box_art: "https://www.allhorror.com/public/uploads/2018/04/i3XAVZWQVkyzmEY4l4QWEIIjkdc.jpg", sub_genre: "Love Sick Horror", year: 2012),
+Movie.create!(name: "He Took His Skin Off For Me", description: "A simple, domestic love story about a man who takes his skin off for his girlfriend, and why it probably wasn't the best idea...", box_art: "https://www.allhorror.com/public/uploads/2018/03/oyrhD3jftzZhOnTvKLnJFZceWCl.jpg", sub_genre: "Love Sick Horror", year: 2014),
+Movie.create!(name: "November", description: "In a pagan Estonian village where werewolves, the plague, and spirits roam, the villagers’ main problem is how to survive the cold, dark winter. And, to that aim, nothing is taboo. People steal from each other, from their German manor lords, and from spirits, the devil, and Christ. Amongst the disorder, a young farm girl hopelessly and forlornly in love with a village boy.", box_art: "https://www.allhorror.com/public/uploads/2018/08/wp4FtvPyZ3KUhKJnRLuYnuBzGYt.jpg", sub_genre: "Love Sick Horror", year: 2017),
+Movie.create!(name: "Lifechanger", description: "A murderous shapeshifter sets out on a blood-soaked mission to make things right with the woman he loves.", box_art: "https://www.allhorror.com/public/uploads/2019/03/cvWtwkm6KqXLwWuAtcS6ub4pUFT.jpg", sub_genre: "Love Sick Horror", year: 2018),
+Movie.create!(name: "After Midnight", description: "Dealing with a girlfriend suddenly leaving is tough enough. But for Hank, heartbreak couldn’t have come at a worse time. There’s also a monster trying to break through his front door every night.", box_art: "https://www.allhorror.com/public/uploads/2021/10/mo3fqfe28u7EaNm8aaUaJt84rIEmo3fqfe28u7EaNm8aaUaJt84rIE-1.jpg", sub_genre: "Love Sick Horror", year: 2021),
+
+### MYSTERY HARD CODE DATA
+
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
