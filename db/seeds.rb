@@ -245,16 +245,19 @@ Movie.create!(name: "Reyes", description: "A down-at-heel author who is trying t
 
 ### POSSESSION HARD CODE DATA 
 
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
+Movie.create!(name: "Vampyr", description: "A traveler obsessed with the supernatural visits an old inn and finds evidence of vampires.", box_art: "https://www.allhorror.com/public/uploads/2021/10/m7BKgeW06cgW5512wukfGhLsWGL.jpg", sub_genre: "Possession Horror", year: 1932),
+Movie.create!(name: "Black Sunday", description: "A vengeful witch and her fiendish servant return from the grave and begin a bloody campaign to possess the body of the witch's beautiful look-alike descendant. Only the girl's brother and a handsome doctor stand in her way.", box_art: "https://www.allhorror.com/public/uploads/2021/10/wpwETIDNFZQrWYvPjAqv8xOaHtK.jpg", sub_genre: "Possession Horror", year: 1960),
+Movie.create!(name: "The Omen", description: "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil. A classic horror film with Gregory Peck from 1976.", box_art: "https://www.allhorror.com/public/uploads/2021/10/p0LcWxOIoBx0MEZMn8tFcrvDXR1.jpg", sub_genre: "Possession Horror", year: 1976),
+Movie.create!(name: "Carrie", description: "Carrie may be ostracized, but the shy teen has the ability to move objects with her mind. So when the high school "in crowd" torments her with a sick joke at the prom, she lashes out with devastating -- and deadly -- power.", box_art: "https://www.allhorror.com/public/uploads/2021/10/uc3OvgmbnYaS5Y0BOjSmC1EmSz1.jpg", sub_genre: "Possession Horror", year: 1976),
+Movie.create!(name: "Desperation", description: "When a sheriff arrests a writer, a family, a couple, and a hitchiker and throws them in a jail cell in the deserted town of Desperation, they must fight for their lives.", box_art: "https://www.allhorror.com/public/uploads/2021/10/bjELwweoUlLSk9DtOS3MXBJVLTX.jpg", sub_genre: "Possession Horror", year: 2006),
+Movie.create!(name: "Village Of The Damned", description: "An American village is visited by some unknown life form which leaves the women of the village pregnant. Nine months later, the babies are born, and they all look normal, but it doesn't take the "parents" long to realize that the kids are not human or humane.", box_art: "https://www.allhorror.com/public/uploads/2021/10/1Iezq745huWW3xB5xQMPDdyyWx7.jpg", sub_genre: "Possession Horror", year: 1995),
+Movie.create!(name: "Invasion Of The Body Snatchers", description: "The first remake of the paranoid infiltration classic moves the setting for the invasion, from a small town to the city of San Francisco and starts as Matthew Bennell notices that several of his friends are complaining that their close relatives are in some way different. When questioned later they themselves seem changed, as they deny everything or make lame excuses. As the invaders increase in number they become more open and Bennell, who has by now witnessed an attempted "replacement", realises that he and his friends must escape or suffer the same fate. But who can he trust to help him and who has already been snatched? ", box_art: "https://www.allhorror.com/public/uploads/2021/10/5oNHdVo0vTsaC47Jv2Wb4eeo4V4.jpg", sub_genre: "Possession Horror", year: 1978),
+Movie.create!(name: "Possessor", description: "A thriller about an agent who works for a secretive organization that uses brain-implant technology to enable its operatives to inhabit other people's bodies, ultimately driving them to carry out assassinations for high-paying clients.", box_art: "https://www.allhorror.com/public/uploads/2021/10/oLQlUUSlI669r1bgQ7AlnjcrrvCoLQlUUSlI669r1bgQ7AlnjcrrvC-1.jpg", sub_genre: "Possession Horror", year: 2020),
+Movie.create!(name: "Clown", description: "A loving father finds a clown suit for his son's birthday party, only to realize the suit is part of an evil curse that turns its wearer into a killer.", box_art: "https://www.allhorror.com/public/uploads/2018/03/3Z97W9dDWU9YH3fk2sQKVauLNnu.jpg", sub_genre: "Possession Horror", year: 2014),
+Movie.create!(name: "The Devil Inside", description: "In Italy, a woman becomes involved in a series of unauthorized exorcisms during her mission to discover what happened to her mother, who allegedly murdered three people during her own exorcism.", box_art: "https://www.allhorror.com/public/uploads/2018/03/xClxu7PoHWMpCHHaqd3ZRdwOCnr.jpg", sub_genre: "Possession Horror", year: 2012),
+
+### SLASHER HARD CODE DATA
+
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
