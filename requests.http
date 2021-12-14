@@ -17,3 +17,16 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
+
+### Movies index
+GET http://localhost:3000/movies.json
+
+### Movies show
+GET http://localhost:3000/movies/12.json
+
+### Movies index update
+PATCH http://localhost:3000/movies.json
+
+{
+  "watched"
+}
