@@ -356,15 +356,18 @@ Movie.create!(name: "Post Mortem", description: "A post mortem photographer and 
 ### WEREWOLVES HARD CODE DATA
 
 Movie.create!(name: "The Wolf Man", description: "After his brother's death, Larry Talbot returns home to his father and the family estate. Events soon take a turn for the worse when Larry is bitten by a werewolf.", box_art: "https://www.allhorror.com/public/uploads/2021/10/vG8fu5syTtQLzK1hQXyi3ugOPNF.jpg", sub_genre: "Werewolf Horror", year: 1941),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
-Movie.create!(name:, description:, box_art:, sub_genre:, year:),
+Movie.create!(name: "I Was A Teenage Werewolf", description: "A meat-eating teenager (Michael Landon) sees a psychiatrist (Whit Bissell), who only makes things worse.", box_art: "https://www.allhorror.com/public/uploads/2021/10/eYraZ2DsmATKhMBmMgzpdbApOfO.jpg", sub_genre: "Werewolf Horror", year: 1957),
+Movie.create!(name: "An American Werewolf In London", description: "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.", box_art: "https://www.allhorror.com/public/uploads/2021/10/hN333m776qWYnbjTTcykwClYNgx.jpg", sub_genre: "Werewolf Horror", year: 1981),
+Movie.create!(name: "The Monster Squad", description: "Count Dracula adjourns to Earth, accompanied by Frankenstein's Monster, the Wolfman, the Mummy, and the Gillman. The uglies are in search of a powerful amulet that will grant them power to rule the world. Our heroes - the Monster Squad are the only ones daring to stand in their way.", box_art: "https://www.allhorror.com/public/uploads/2018/06/ise6Cvp4nWqfQ8hOyEK0MmctLV8.jpg", sub_genre: "Werewolf Horror", year: 1987),
+Movie.create!(name: "Underworld", description: "Vampires and werewolves have waged a nocturnal war against each other for centuries. But all bets are off when a female vampire warrior named Selene, who's famous for her strength and werewolf-hunting prowess, becomes smitten with a peace-loving male werewolf, Michael, who wants to end the war.", box_art: "https://www.allhorror.com/public/uploads/2018/04/rdkxl5iXdpVU188cL1LLG3sy6z4.jpg", sub_genre: "Werewolf Horror", year: 2003),
+Movie.create!(name: "Skinwalkers", description: "Creatures, bound by the blood of the wolf, that can kill with curses and move at lightening speed, watching the night sky for the rise of the blood-red crescent moon. They are SKINWALKERS. They feed on our flesh and thirst for the taste of human blood. The red moon signals each pack, divided by principles, hell bent to survive an ancient prophecy.", box_art: "https://www.allhorror.com/public/uploads/2021/10/3wHzoF0C6taZ9gLz6NRnHdfpzTn.jpg", sub_genre: "Werewolf Horror", year: 2006),
+Movie.create!(name: "Dark Moon Rising", description: "Small-town girl meets mysterious drifter boy, they fall in love. Only in this case, the boy brings with him a family curse and unimaginable horror that rains hell upon the small town", box_art: "https://www.allhorror.com/public/uploads/2018/03/4EFzVttFbND3gFL404AKsCZKQvs.jpg", sub_genre: "Werewolf Horror", year: 2009),
+Movie.create!(name: "Wer", description: "A defense attorney begins to suspect that her client, who is charged with the murders of a vacationing family, might be more than meets the eye.", box_art: "https://www.allhorror.com/public/uploads/2018/03/38rt0J5SRTTHqUZ1dXqeQmIIva5.jpg", sub_genre: "Werewolf Horror", year: 2013),
+Movie.create!(name: "Wolf House", description: "Six friends on a camping trip think they have discovered, and killed, a Sasquatch. But what they have actually unleashed is something more evil, more ancient and more deadly than they could ever imagine - an army of supernatural terrors that will hunt them down until no one remains.", box_art: "https://www.allhorror.com/public/uploads/2018/03/mxk946TF12c9iuFxuSxP8252bRM.jpg", sub_genre: "Werewolf Horror", year: 2017),
+Movie.create!(name: "Are We Monsters", description: "A werewolf conflicted with identity, Maya seeks to understand the two sides of herself- before the consequences become deadly.", box_art: "https://www.allhorror.com/public/uploads/2021/09/q3grHs6DZIMjJOltxR2i8XECOBz.jpg", sub_genre: "Werewolf Horror", year: 2021),
+
+### ZOMBIE HARD CODE DATA
+
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
 Movie.create!(name:, description:, box_art:, sub_genre:, year:),
