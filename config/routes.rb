@@ -9,8 +9,8 @@ Rails.application.routes.draw do
   ### MOVIES ROUTES ###
   get "/movies" => "movies#index"
   get "/movies/:id" => "movies#show"
-  patch "/movies" => "movies#update"
 
   ### WATCH_LISTS ROUTES
   post "/watch_lists" => "watch_lists#create"
+  patch "/watch_lists" => "watch_lists#update"
 end

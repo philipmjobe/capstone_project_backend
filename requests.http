@@ -20,13 +20,12 @@ Content-Type: application/json
 
 ### Movies index
 GET http://localhost:3000/movies.json
+Content-Type: application/json
 
 ### Movies show
 GET http://localhost:3000/movies/12.json
+Content-Type: application/json
 
-### Movies index update
-PATCH http://localhost:3000/movies.json
+### Watch list create
+POST http://localhost:3000/watch_lists.json
 
-{
-  "watched"
-}
