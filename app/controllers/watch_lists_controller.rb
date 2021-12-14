@@ -4,7 +4,8 @@ class WatchListsController < ApplicationController
       name: params[:name],
       description: params[:description],
       box_art: params[:box_art],
-      sub_genre: params[:sub_genre]
+      sub_genre: params[:sub_genre],
+      year: params[:year]
     )
     if movie.save
       render json: movie
