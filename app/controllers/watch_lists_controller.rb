@@ -1,26 +1,27 @@
 class WatchListsController < ApplicationController
   def create
-    movie = Watch_list.new(
+    watch_list = Watch_list.new(
       name: params[:name],
       description: params[:description],
       box_art: params[:box_art],
       sub_genre: params[:sub_genre],
       year: params[:year]
     )
-    if movie.save
-      render json: movie
+    if watch_list.save
+      render json: watch_list
     else
-      render json: {errors: movie.errors.full_messages}, status: 406
+      render json: {errors: watch_list.errors.full_messages}, status: 406
     end
   end 
 
   def update
-    movie = Movie.find_by(id: params[:id])
-    if movie == "watched"
-      watched = true
+    if params[:category]
+      category = Category.find_by(name: params[:category])
+      movies = category.movies
     else
-      watched = false
+      movies = Movies.all      
     end 
+    render json: movies
   end 
 
 end

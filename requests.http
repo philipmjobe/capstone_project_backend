@@ -28,4 +28,6 @@ Content-Type: application/json
 
 ### Watch list create
 POST http://localhost:3000/watch_lists.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2NzU1Mjd9.qof9d2YWJT45FEyFHuxgWoJKiUvI9bGoWm_kOGYnnR0
+Content-Type: application/json
 
