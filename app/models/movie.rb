@@ -1,4 +1,4 @@
 class Movie < ApplicationRecord
-  has_many :watch_lists
-  has_many :users, through: :watch_lists
+  has_many :lists
+  has_many :users, through: :lists
 end
