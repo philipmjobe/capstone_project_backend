@@ -1,7 +1,7 @@
 class ListsController < ApplicationController
   def create
-    list = List.new(
-      user = current_user.id,
+    list = List.create(
+      user_id: current_user.id,
       movie_id: params[:movie_id],
       watched: params[:watched],
       category: params[:category]

@@ -28,14 +28,13 @@ Content-Type: application/json
 
 ### List create ###
 POST http://localhost:3000/lists.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2Nzk2MTh9.KWNQ12Q2qoIsxJwaGL8E0T1RGjBo2_caqbfmpeNq9Sw
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2ODkwNjZ9.RJCvrBa22WJjFRf23mbLHR8C7bOW8FEC3fYXTlKkH8w
 Content-Type: application/json
 
 {
-  "user_id": 1,
-  "movie_id": ,
+  "movie_id": 4,
   "watched": false,
-  "category": "watched"
+  "category": "not watched"
 }
 
 ### List update ###
@@ -44,7 +43,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2Nzk2M
 Content-Type: application/json
 
 {
-  "movie_id": 2,
+  "movie_id": 4,
   "watched": false,
   "category": "Not Watched"
 }
