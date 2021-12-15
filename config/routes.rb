@@ -12,5 +12,5 @@ Rails.application.routes.draw do
 
   ### WATCH_LISTS ROUTES
   post "/lists" => "lists#create"
-  patch "/lists" => "lists#update"
+  patch "/lists/:id" => "lists#update"
 end

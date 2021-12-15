@@ -18,23 +18,33 @@ Content-Type: application/json
   "password": "password"
 }
 
-### Movies index
+### Movies index ###
 GET http://localhost:3000/movies.json
 Content-Type: application/json
 
-### Movies show
+### Movies show ###
 GET http://localhost:3000/movies/12.json
 Content-Type: application/json
 
-### Watch list create
+### List create ###
 POST http://localhost:3000/lists.json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2Nzk2MTh9.KWNQ12Q2qoIsxJwaGL8E0T1RGjBo2_caqbfmpeNq9Sw
 Content-Type: application/json
 
 {
   "user_id": 1,
-  "movie_id": 1,
+  "movie_id": ,
   "watched": false,
   "category": "watched"
 }
 
+### List update ###
+PATCH http://localhost:3000/lists/1.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Mzk2Nzk2MTh9.KWNQ12Q2qoIsxJwaGL8E0T1RGjBo2_caqbfmpeNq9Sw
+Content-Type: application/json
+
+{
+  "movie_id": 2,
+  "watched": false,
+  "category": "Not Watched"
+}
