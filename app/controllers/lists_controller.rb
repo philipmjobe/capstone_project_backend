@@ -1,7 +1,8 @@
 class ListsController < ApplicationController
+  before_action :authenticate_user
   
   def index
-    list = List.all
+    list = current_user.lists
     render json: list
   end 
   
@@ -9,7 +10,7 @@ class ListsController < ApplicationController
     list = List.create(
       user_id: current_user.id,
       movie_id: params[:movie_id],
-      watched: params[:watched],
+      watched: false,
       category: params[:category]
     )
     if list.save

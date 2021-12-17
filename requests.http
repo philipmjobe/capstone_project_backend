@@ -28,11 +28,10 @@ Content-Type: application/json
 
 ### List create ###
 POST http://localhost:3000/lists.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Mzk2OTA2Mjd9.GylFpRZD288hAOOJn5oJUKkQTW0r-lp7NjpArzZVHfY
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Mzk4NTM0MzF9.LTrqPa5BsKEy3P0J_EQWH9_97hkNz-Q-gvFU9sJ8Acc
 Content-Type: application/json
 
 {
-  "movie_id": 86,
   "watched": false,
   "category": "not watched"
 }
