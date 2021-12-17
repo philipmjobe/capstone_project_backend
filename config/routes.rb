@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get "/movies/:id" => "movies#show"
 
   ### WATCH_LISTS ROUTES
+  get "/lists" => "lists#index"
   post "/lists" => "lists#create"
   patch "/lists/:id" => "lists#update"
 end

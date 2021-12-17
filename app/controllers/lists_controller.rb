@@ -1,4 +1,10 @@
 class ListsController < ApplicationController
+  
+  def index
+    list = List.all
+    render json: list
+  end 
+  
   def create
     list = List.create(
       user_id: current_user.id,
