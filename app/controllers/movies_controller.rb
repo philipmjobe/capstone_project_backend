@@ -9,4 +9,17 @@ class MoviesController < ApplicationController
     movie = Movie.find_by(id: params[:id])
     render json: movie
   end 
+
+  def update 
+    movie = Movie.find_by(:id params[:id])
+    movie.movie_id = params[:movie_id] || movie.movie_id
+    movie.watched = params[:watched] || movie.watched
+    movie.category = params[:category] || movie.category
+
+    if movie.save
+      render json: movie
+    else
+      render json: {errors: list.errors.full_messages}, status: 406
+    end
+  end
 end

@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   ### MOVIES ROUTES ###
   get "/movies" => "movies#index"
   get "/movies/:id" => "movies#show"
+  patch "/movies/:id" => "movies#update"
 
   ### WATCH_LISTS ROUTES
   get "/lists" => "lists#index"
