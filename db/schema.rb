@@ -24,12 +24,6 @@ ActiveRecord::Schema.define(version: 2022_01_10_191339) do
     t.string "category"
   end
 
-  create_table "loveits", force: :cascade do |t|
-    t.integer "movie_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "movies", force: :cascade do |t|
     t.string "name"
     t.string "description"
