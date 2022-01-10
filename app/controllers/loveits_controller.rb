@@ -1,0 +1,2 @@
+class LoveitsController < ApplicationController
+end
