@@ -1,0 +1,2 @@
+class Loveit < ApplicationRecord
+end
