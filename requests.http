@@ -46,3 +46,12 @@ Content-Type: application/json
   "watched": true,
   "category": "Loved it"
 }
+
+### Loved it add
+POST http://localhost:3000/lovedits
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDIwMDI1NTZ9.B28NXlf7X9AzQ1-c9mhlCcFXHKjA6H1RBOAll4_jYyg
+Content-Type: application/json
+
+{
+  "movie_id": 1
+}
