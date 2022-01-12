@@ -1,5 +1,10 @@
 class LoveditsController < ApplicationController
 
+  def index 
+    lovedit = Lovedit.all 
+    render json: lovedit 
+  end 
+
   def show
     movie = Movie.find_by(id: params[:id])
     render json: movie

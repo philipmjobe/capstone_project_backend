@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   patch "/lists/:id" => "lists#update"
 
   ### LOVEDIT ROUTES
+  get "/lovedits" => "lovedits#index"
   get "/lovedits/:id" => "lovedits#show"
   post "/lovedits" => "lovedits#create"
 end
