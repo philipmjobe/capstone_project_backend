@@ -20,4 +20,9 @@ Rails.application.routes.draw do
   get "/lovedits" => "lovedits#index"
   get "/lovedits/:id" => "lovedits#show"
   post "/lovedits" => "lovedits#create"
+
+  ### HATEDIT ROUTES
+  get "/hatedits" => "hatedits#index"
+  get "/hatedits/:id" => "hatedits#show"
+  post "/hatedits" => "hatedits#create"
 end
