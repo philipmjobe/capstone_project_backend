@@ -64,3 +64,7 @@ Content-Type: application/json
 {
   "movie_id": 22
 }
+
+### List Delete
+
+DELETE http://localhost:3000/lists/1.json

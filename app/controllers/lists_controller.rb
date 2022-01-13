@@ -32,5 +32,12 @@ class ListsController < ApplicationController
       render json: {errors: list.errors.full_messages}, status: 406
     end 
   end 
+  
+  def destroy 
+    movie_id = params["id"]
+    movie = Movie.find_by(id: movie_id)
 
+    movie.destroy
+    render json: {message: "Movie sucessfully destroyed"}
+  end 
 end

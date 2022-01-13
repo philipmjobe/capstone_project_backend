@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get "/lists" => "lists#index"
   post "/lists" => "lists#create"
   patch "/lists/:id" => "lists#update"
+  delete "/lists/:id" => "list#destroy"
 
   ### LOVEDIT ROUTES
   get "/lovedits" => "lovedits#index"
