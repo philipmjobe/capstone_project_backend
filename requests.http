@@ -55,3 +55,12 @@ Content-Type: application/json
 {
   "movie_id": 1
 }
+
+### hated it add
+POST http://localhost:3000/hatedits
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDIxOTQ4NjN9.oHs3VhNfhmJKzR0_LdjWEffR5jyimkX6EjRrvjgLz7Q
+Content-Type: application/json
+
+{
+  "movie_id": 22
+}

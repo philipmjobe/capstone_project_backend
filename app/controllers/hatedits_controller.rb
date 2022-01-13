@@ -1,4 +1,5 @@
-class HatedItsController < ApplicationController
+class HateditsController < ApplicationController
+
   def index 
     hatedit = Hatedit.all 
     render json: hatedit 
@@ -20,5 +21,5 @@ class HatedItsController < ApplicationController
     else
       render json: {errors: hatedit.errors.full_messages}, status: 406
     end
-  end 
+  end
 end
