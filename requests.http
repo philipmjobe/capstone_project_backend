@@ -68,3 +68,5 @@ Content-Type: application/json
 ### List Delete
 
 DELETE http://localhost:3000/lists/1.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NDIyNzcyOTV9.TX3WCwSydtGbggsbM9uofu_8tmPj77jfS9jSqDCE3QU
+Content-Type: application/json
