@@ -1,4 +1,4 @@
-class HateditController < ApplicationController
+class HateditsController < ApplicationController
   def index 
     hatedit = Hatedit.all 
     render json: hatedit 
