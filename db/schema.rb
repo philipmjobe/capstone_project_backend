@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_13_201139) do
+ActiveRecord::Schema.define(version: 2022_09_20_152515) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2022_03_13_201139) do
   create_table "hatedits", force: :cascade do |t|
     t.integer "movie_id"
     t.integer "user_id"
-    t.string "box_art"
+    t.string "poster_path"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -36,18 +36,17 @@ ActiveRecord::Schema.define(version: 2022_03_13_201139) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
-    t.string "box_art"
+    t.string "poster_path"
   end
 
   create_table "movies", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.string "box_art"
-    t.string "sub_genre"
+    t.string "original_title"
+    t.string "overview"
+    t.string "poster_path"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "year"
     t.string "category"
+    t.string "tagline"
   end
 
   create_table "users", force: :cascade do |t|
