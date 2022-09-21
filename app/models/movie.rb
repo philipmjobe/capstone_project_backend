@@ -1,6 +1,8 @@
 class Movie < ApplicationRecord
   has_many :lists
   has_many :users, through: :lists
+  validates :poster_path, :presence => true
+  validates :overview, :presence => true
 
   def self.import
     (1..500).each do |page|
