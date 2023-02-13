@@ -1,24 +1,9 @@
-# README
+<b>Capstone Project Backend<b>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Back in 2005 I watched a movie that changed my entire outlook on scary movies, that movie was SAW as a bit of a preface to all of this up to that point I had no real desire to watch scary movies because of just that they were scary and I had no desire to sit through something like that. After watching SAW though I became a horror movie junkie I wanted, and still do want, to watch every horror movie that I can get my hands on. That is where the idea for this app came from if you go to iMBD you can search horror but that is it you cannont do a deep dive into the numerous sub-genres of horror movies that are out there. 
 
-Things you may want to cover:
+When I started my bootcamp and we learned what our capstone project was supposed to be I knew this is what I wanted to do. My bootcamp was focused on a Rails backend with a Vue frontend and as I have come to learn since I graduated that the V1 of this project was perfect to build with Rails with my personal favorite aspect being the seeds file in my opinion that is the best way to get your database up and going and with the fact that I wanted users to be able to not only see the box art, because horror will always win that debate of who has the best art out there, but a description, along with what the sub-genre is. 
 
-* Ruby version
+With the V2 of this app I incorporated https://www.themoviedb.org/ API to filter through all of the movies and give me the box art as well as all of the other information mentioned earlier this proved to be a little more challenging than I thought it was going to be because I am pulling in a ton of data from that API (~10,000 movies) and filtering out the movies that didn't have descriptions or box art took me a good week to get figured out on how to sort everything after I pulled it from the API. It is fully up and running now and deployed using Railway for the backend and Netlify for the frontend if you would like to check out everything up and running you can check it out here https://horrormoviebucketlist.netlify.app/ 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I do want to speak a little more on migrating from Heroku to Railway because that did have its own unique set of challenges such as having to add an empty manifest.js file for the production cycle and having to go into files that I had never touched such as the application.rb and production.rb to let Railway pick up the things that it needed to build the site. The big one especially for rails was the master key that one error had me busy for a couple of days as well. Honestly though I kinda liked the Railway experience better than the Heroku because I think it is just set up a little bit better and easier to get started with https://railway.app/ definitely worth checking out if you are looking to deploy a project. 
